@@ -39,7 +39,7 @@ def lines_printed_random(string_list):
 
 def list_rearrange(string_list):
     """
-    Rearranges the each line backwards
+    Prints each line backwards
     """
     string_list= """So the sun is shining blindingly but I can sort of see
     It’s like looking at Mandela’s moral beauty

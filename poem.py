@@ -1,5 +1,6 @@
 import random as random 
 
+
 """ What Next BY FREDERICK SEIDE""" 
 
 poem = """So the sun is shining blindingly but I can sort of see
@@ -14,17 +15,20 @@ And the Pellegrino bubbles rise to the surface and dismember"""
 
 string_list = poem.split("\n")
 
+
 def lines_printed_backwards(string_list):
     """
     Takes in a list of strings containing the lines of the poem as arguments and 
     prints the poem lines out in reverse with the line numbers reversed
     """
+
     i = len(string_list)
     string_list.reverse()
 
     for string in string_list:
         print(f'{str(i)} {string}')
         i -= 1
+
 
 def lines_printed_random(string_list):
     """
@@ -34,6 +38,7 @@ def lines_printed_random(string_list):
     for _ in string_list:
         print(random.choice(string_list))
  
+
 def list_rearrange(string_list):
     """
     Prints each line in reverse
@@ -55,7 +60,12 @@ def list_rearrange_words(string_list):
         string_list[rand] = temp
     print(string_list)    
 
+
+
 lines_printed_backwards(string_list)
+
 lines_printed_random(string_list)
+
 list_rearrange(string_list)
+
 list_rearrange_words(string_list)

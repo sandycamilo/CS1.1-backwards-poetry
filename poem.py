@@ -11,7 +11,6 @@ And gaveling the courtroom to order with a four-leaf clover
 Is over. And it’s altogether November.
 And the Pellegrino bubbles rise to the surface and dismember"""
 
-# print(poem) 
 
 string_list = poem.split("\n")
 
@@ -34,10 +33,6 @@ def lines_printed_random(string_list):
 
     for _ in string_list:
         print(random.choice(string_list))
-
-    #    random_index = random.randint(0,len(string_list)-1) 
-    #    print(string_list[random_index])
-
  
 def list_rearrange(string_list):
     """

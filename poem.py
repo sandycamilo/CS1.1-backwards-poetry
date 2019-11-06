@@ -47,7 +47,6 @@ def list_rearrange(string_list):
     for line in string_list:
         print(line[::-1])
 
-# Modify your program to randomly rearrange the words on each line
 
 def list_rearrange_words(string_list):
     """
